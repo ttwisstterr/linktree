@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Profile",
+    "icon": "bi bi-person-fill",
+    "url": "#"
+  },
+  {
+    "text": "LinkedIn",
+    "icon": "bi bi-linkedin",
+    "url": "https://www.linkedin.com/in/twiska-nadila"
+  },
+  {
+    "text": "Github",
+    "icon": "bi bi-github",
+    "url": "https://github.com/ttwisstterr"
+  },
+  {
+    "text": "Instagram",
+    "icon": "bi bi-whatsapp",
+    "url": "https://www.instagram.com/ttwisstter/"
+  }
+]

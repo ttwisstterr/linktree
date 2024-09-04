@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Links | Twiska</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta property="og:title" content="Links | Twiska" />
+    <meta name="og:description" content="Twiska personal linktree" />
+    <meta
+      name="keywords"
+      content="twiska, twiska nadila,twiska nadila azahra, twiska nadila azahra aulia, twiska aulia,"
+    />
+    <meta name="robots" content="index, nofollow" />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <noscript>This site can't be opened without javascript</noscript>
+    <div id="profile">
+      <img class="photo" loading="eager" src="#" alt="Profile of Twis" />
+      <div class="username">
+        <h1 title="my name">Twiska Nadila Azahra Aulia</h1>
+      </div>
+    </div>
+    <div id="links" class="links">
+      <div v-for="dbs in dataLinks">
+        <a class="link" :href="dbs.url" target="_blank">
+          <i :class="dbs.icon" aria-hidden="true"></i> {{dbs.text}}
+        </a>
+      </div>
+    </div>
+    <div class="username">
+      made <i class="bi bi-heart-fill" aria-hidden="true"></i> by
+      <p
+        title="copyright"
+        style="
+          text-decoration-line: underline;
+          font-family: 'Lucida Console', monospace;
+        "
+      >
+        Twiska
+      </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
