@@ -1,4 +1,4 @@
-[
+[ 
   {
     "text": "Profile",
     "icon": "bi bi-person-fill",
@@ -7,7 +7,7 @@
   {
     "text": "LinkedIn",
     "icon": "bi bi-linkedin",
-    "url": "https://www.linkedin.com/in/twiska-nadila"
+    "url": "https://www.linkedin.com/in/twiska-nadila "
   },
   {
     "text": "Github",
@@ -15,8 +15,19 @@
     "url": "https://github.com/ttwisstterr"
   },
   {
+    "text": "certificate",
+    "icon": "bi bi-award-fill",
+    "url": "https://drive.google.com/drive/folders/1BZJUGucbdeaOK3xTFTh7DcnVTeC--nkW"
+  },
+  {
+    "text": "E-Mail",
+    "icon": "bi bi-envelope-fill",
+    "url": "mailto:twiskanadilaa.a@gmail.com"
+  },
+
+  {
     "text": "Instagram",
-    "icon": "bi bi-whatsapp",
+    "icon": "bi bi-instagram",
     "url": "https://www.instagram.com/ttwisstter/"
   }
 ]
