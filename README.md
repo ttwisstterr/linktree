@@ -1,4 +1,4 @@
-# Linktree
+# Linktree Clone
 
 A simple website to store and display personal links, built using Vue.js.
 
