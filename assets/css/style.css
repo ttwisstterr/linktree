@@ -1,4 +1,4 @@
-/* Style Settings */
+/* Global Style Settings */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 body {
@@ -7,70 +7,82 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  margin-top: 6%;
-  margin-bottom: 3%;
-}
-
-.photo {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: 10px auto;
-  border-radius: 20%;
-}
-
-.username {
+  margin: 4rem 1rem;
   color: #fff;
-  display: block;
-  width: 100%;
   text-align: center;
-  text-decoration: none;
 }
 
-.username h1 {
-  font-size: 2rem;
-  font-weight: 300;
-  letter-spacing: 0.2rem;
+/* Profile block */
+.profile {
+  margin-bottom: 3rem;
+}
+
+.profile__image-wrapper {
   margin: 0 auto;
 }
 
-.username p {
-  font-weight: 300;
-  margin-top: 5px;
-  text-transform: none;
+.profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin: 10px auto;
 }
 
-i.fa {
-  margin-right: 0.3rem;
+.profile__username {
+  text-align: center;
 }
 
+.profile__username-text {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+/* Links block */
 .links {
   max-width: 500px;
-  width: auto;
-  display: block;
   margin: 20px auto;
 }
 
-.link {
-  display: block;
-  background-color: rgba(226, 36, 255, 0.2);
-  color: #fff;
-  text-align: center;
+.links__item {
   margin-bottom: 20px;
-  padding: 17px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 300;
-  transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-  border-radius: 10px;
 }
 
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #000000;
-  border: none;
+.links__link {
+  display: block;
+  background-color: rgba(226, 36, 255, 0.4);
+  color: #fff;
+  padding: 17px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background-color 0.5s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+  text-decoration: none;
 }
-[v-for="dbs in dataLinks"] {
-  display: none;
+
+.links__link:hover {
+  background-color: rgba(248, 199, 255, 0.4);
+  color: #000;
+}
+
+/* Footer block */
+.footer {
+  margin-top: 3rem;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__icon {
+  margin: 0 5px;
+}
+
+.footer__text {
+  font-weight: 600;
+  text-decoration: underline;
+  font-family: "Lucida Console", monospace;
+  margin: 0 5px;
 }
